@@ -2,18 +2,48 @@
 
 int main(){
 
-    printf("Super Trunfo");
+    printf("Super Trunfo\n");
 
-    int população;
-    float area;
-    float PIB;
-    int pontosturiscos; 
-    char cidade[20];
+    char estado1;
+    char carta1[30];
+    char cidade1[5];
+    int populacao1;
+    float area1;
+    float pib1;
+    int npt1; 
 
-    printf("carta 1: \n")
+    printf("Carta 1:\n");
 
-    printf("Digite o nome da cidade: \n");
-    scanf("%s", &cidade);
+    printf("Sua carta é de qual estado Brasileiro?:\n");
+    scanf("%s", &estado1);
+
+    printf("Qual o código da sua carta?:\n");
+    scanf("%s", &carta1);
+
+    printf("Qual o nome da sua cidade?:\n");
+    scanf("%s", &cidade1);
+
+    printf("Qual a população da cidade?:\n");
+    scanf("%f", &populacao1);
+
+    printf("Qual a área aproximada desta cidade?:\n");
+    scanf("%f", &area1);
+
+    printf("Qual o PIB respectivo desta cidade?:\n");
+    scanf("%f", &pib1);
+
+    printf("À quantos pontos turísticos nesta cidade?:\n");
+    scanf("%f", &npt1);
+
+
+
+
+
+
+
+
+
+
 
     return 0;
 }
